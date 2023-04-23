@@ -1,0 +1,51 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: calc(100vh - 80px); /* Subtract the height of the header */
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem; /* Increase padding for larger buttons */
+    border: none;
+    border-radius: 10px; /* Increase border-radius for larger buttons */
+    font-size: 1.2rem; /* Increase font-size for larger buttons */
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .btn-discord {
+    background-color: #7289da;
+  }
+  
+  .btn-membership {
+    background-color: #3db0ef;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
